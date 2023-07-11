@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAXdv4eSz9zSvWbgh6f2B3aG7xikPYSAmU",
+  apiKey: import.meta.env.BD_PASWORD,
   authDomain: "crud-taller-d8f4b.firebaseapp.com",
   projectId: "crud-taller-d8f4b",
   storageBucket: "crud-taller-d8f4b.appspot.com",
